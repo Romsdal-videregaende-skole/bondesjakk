@@ -54,8 +54,42 @@ image: 'static/HTML_DALL·E 2023-11-15 21.11.11.png'
   </html>
   ```
 <!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
+Hardware:
+* Viktigheten av å forstå fysisk teknologi.
+Eksempler: Arbeid med Arduino, 3D-printere og feilsøking.
+
+Python:
+* Grunnleggende og kraftfullt programmeringsspråk.
+Relevans i ulike teknologifelt, alt fra webteknologi, dataanalyse, maskinlæring, scripting og automatisering, informasjonssikkerhet, spillutvikling. 
+
+
+Film og Foto:
+* Kreative ferdigheter i visuell historiefortelling. Har også tilgang på droner, selv om disse ikke blir så mye brukt. 
+
+Webteknologi:
+* Webutvikling med HTML, CSS og JavaScript. Vekt på moderne rammeverk som Svelte Kit.
+
+Kunstig Intelligens (AI), AR og VR:
+* Innføring i fremtidens teknologier.
+
+Nettverk og Sikkerhet:
+* Grunnleggende innføring i nettverk med Cisco, UniFi og Wireshark. Sikkerhetsaspekter med Linux og SIEM.
+  
+Server- og Lagringsteknologi:
+* Håndtering av servere og lagringssystemer (NAS
+* Virtualiseringsteknikker med Proxmox og docker. 
+* SQL og NoSQL databaser
+  
+Skytjenester og infrastruktur:
+* Bruk av Azure for forståelse av skybaserte tjenester. Office365 og AzureAD. 
+  
+Hvorfor Velge Denne Linjen?
+
+* Linjen kombinerer teoretisk kunnskap med praktiske prosjekter.
+* Viktig med teknologisk kompetanse i dagens og fremtidens jobbmarked. 
+* Linja gir en solid forståelse av både hardware og software, og forbereder for videre utdanning eller yrker innen IT og medieproduksjon.
+* Stor etterspørsel av akkurat denne kunnskapen. Over gjennomsnittet godt betalte jobber. 
+  
 -->
 
 ---
@@ -75,6 +109,27 @@ div {
 }
 ```
 
+<!--
+Definisjon: 'Cascading Style Sheets'.
+Formål: Styrer stil og utseende av nettsider.
+
+1. Hvordan virker CSS:
+* Selektorer: Velger HTML-elementer å style (f.eks., div, p).
+* Egenskaper: Bestemmer stilen (f.eks., color, font-size).
+
+2. Cascading effekt:
+* Arv: Stiler kan arves fra foreldreelementer.
+* Prioritet: Mer spesifikke regler har forrang.
+
+3. Betydning for Webutvikling:
+ * Separasjon av "Innhold og Stil": Holder HTML-kode rent for innhold, mens CSS håndterer design.
+ * Forbedrer brukeropplevelsen: Gjør nettsider mer tiltalende og leservennlige.
+
+4. Gode praksiser:
+* Responsivt design: Viktigheten av å designe for ulike skjermstørrelser.
+* Enkelhet: Start med grunnleggende stiler og bygg videre etter behov.
+-->
+
 ---
 layout: image-left
 image: '/static/JS_1_DALL·E 2023-11-15 21.11.51.png'
@@ -91,7 +146,27 @@ document.querySelector('div').addEventListener('click', function() {
   alert('Div klikket!');
 });
 ```
+<!--
+JavaScript er et programmeringsspråk spesifikt for internett.
+Har som formål å gjøre nettsider interaktive og dynamiske.
 
+2. Hvordan JavaScript fungerer:
+* Klient-side Scripting: Kjører i brukerens nettleser.
+* Manipulerer HTML/CSS: Endrer og styrer webinnhold og stil.
+
+3. Interaktivitet og dynamikk:
+* Interaktive elementer: Legger til brukerinteraksjoner som klikk, scroll, input.
+* Dynamiske endringer: Oppdaterer innholdet på siden uten å laste den på nytt.
+
+4. JavaScript og webutvikling:
+* Uunnværlig for moderne web: Nødvendig for nesten alle aspekter av moderne webutvikling.
+* Samspill med HTML og CSS: Skaper en fullstendig brukeropplevelse ved å kombinere struktur (HTML), stil (CSS) og funksjonalitet (JavaScript).
+
+6. Moderne JavaScript-rammeverk:
+* Frontend Rammeverk: React, Angular, Vue, og Svelte for mer avanserte og interaktive brukergrensesnitt.
+* Backend Rammeverk: Django, Flask, Laravel for server-side programmering og databasestyring.
+
+-->
 
 ---
 layout: image-right
@@ -136,7 +211,27 @@ image: 'static/bondesjakk.png'
 }
 </style>
 
+<!--
+1. HTML - Struktur:
+* Ruter på spillbrettet: HTML brukes til å skape de grunnleggende elementene i spillet, som spillruter og knapper.
 
+Eksempel: <div class="rute"></div> lager en enkelt rute på brettet.
+
+2. CSS - Utseende:
+* Stil og design: CSS gir farge, størrelse og layout til spillelementene.
+
+Eksempel: CSS-kode kan style hver div-rute for å se ut som en del av et Bondesjakkbrett.
+
+3. JavaScript - Logikk:
+* Spillmekanikker: JavaScript legger til funksjonaliteten, som å håndtere spillernes trekk og bestemme vinneren.
+
+Eksempel: JavaScript-koden du har inkludert håndterer spillernes trekk, sjekker etter en vinner, og håndterer spillstatusen.
+
+4. Samspill og Samordning:
+* Integrert funksjon: Vis hvordan HTML, CSS og JavaScript samarbeider for å skape en sømløs spillopplevelse.
+* Dynamisk interaksjon: Forklar hvordan JavaScript reagerer på brukerinteraksjon og oppdaterer HTML og CSS dynamisk.
+
+-->
 ---
 layout: intro
 image: 'https://images.unsplash.com/photo-1645709890294-b59f87cc70e9?q=80&w=2662&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
@@ -152,5 +247,5 @@ image: 'https://images.unsplash.com/photo-1645709890294-b59f87cc70e9?q=80&w=2662
 
 
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+Søk linja da vell!
 -->
