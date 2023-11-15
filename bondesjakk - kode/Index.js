@@ -1,8 +1,8 @@
 // Setter opp en hendelse som venter på at hele DOM-strukturen skal lastes
 window.addEventListener("DOMContentLoaded", () => {
-  // Henter alle spillebrettets ruter, spillers display, kunngjøringsfeltet og restart-knappen
+  // Henter alle spillebrettets ruter, vis-spillere, forkynninger og restart-knappen
   const ruter = Array.from(document.querySelectorAll(".rute"));
-  const spillerDisplay = document.querySelector(".display-spiller");
+  const visSpiller = document.querySelector(".vis-spiller");
   const forkynner = document.querySelector(".forkynner");
   const restartKnapp = document.querySelector("#restart");
 
@@ -63,7 +63,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
       if (!oppdaterSpillStatus()) return;
       aktivSpiller = aktivSpiller === "X" ? "O" : "X";
-      spillerDisplay.innerText = aktivSpiller;
+      visSpiller.innerText = aktivSpiller;
     }
   }
 
@@ -71,7 +71,7 @@ window.addEventListener("DOMContentLoaded", () => {
   function restartBrett() {
     brett.fill("");
     aktivSpiller = "X";
-    spillerDisplay.innerText = aktivSpiller;
+    visSpiller.innerText = aktivSpiller;
     forkynner.classList.add("gjem");
     ruter.forEach((rute) => {
       rute.innerText = "";
