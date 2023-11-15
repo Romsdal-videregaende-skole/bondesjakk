@@ -11,10 +11,14 @@ mdc: true
 layout: intro
 image: 'https://images.unsplash.com/photo-1645709890294-b59f87cc70e9?q=80&w=2662&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
 ---
-
+  <div class="absolute pt-6 left-12">
+    <span class="p-1 rounded opacity-60 flex justify-center items-center">
+      Informasjonsteknologi og medieproduksjon
+    </span>
+  </div>
   <div class="mb-4 absolute bottom-4 left-12">
     <span class="text-6xl text-primary-lighter text-opacity-80" style="font-weight:500;" >
-      HTML, CSS og JavaScript <light-icon icon="web"/>
+      HTML, CSS og JavaScript <light-icon icon="brand-github"/>
     </span>
     <div class="text-9xl text-white text-opacity-60" style="font-weight:600;" >
       Webutvikling
@@ -27,15 +31,23 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
-transition: fade-out
-image: '/media/pexels-tobias-bjørkli-2335126.jpg'
+layout: image-left
+transition: slide-up
+image: 'static/HTML_DALL·E 2023-11-15 21.11.11.png'
 ---
+
+<style>
+img {
+  margin-left: 20px;
+ }  
+</style>
 
 # Hva er HTML?
 
 - Står for 'HyperText Markup Language'
 - Struktur og innhold av en nettside
 - Eksempel:
+- 
   ```html
   <html>
     <head>
@@ -51,25 +63,9 @@ You can have `style` tag in markdown to override the style for the current page.
 Learn more: https://sli.dev/guide/syntax#embedded-styles
 -->
 
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
 ---
-layout: image-header-intro
-imageRight: '/static/light-icons-cover.svg'
+layout: image-right
+image: '/static/CSS-1_DALL·E 2023-11-15 21.11.40.png'
 ---
 # Hva er CSS?
 
@@ -85,8 +81,9 @@ div {
 ```
 
 ---
+layout: image-left
+image: '/static/JS_1_DALL·E 2023-11-15 21.11.51.png'
 transition: slide-up
-level: 2
 ---
 
 # Hva er JavaScript?
@@ -100,23 +97,6 @@ document.querySelector('div').addEventListener('click', function() {
 });
 ```
 
-## Keyboard Shortcuts
-
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
-
-<!-- https://sli.dev/guide/animations.html#click-animations -->
-<img
-  v-click
-  class="absolute -bottom-9 -left-7 w-80 opacity-50"
-  src="https://sli.dev/assets/arrow-bottom-left.svg"
-  alt=""
-/>
-<p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
 
 ---
 layout: image-right

@@ -24,6 +24,7 @@
         class="my-auto mx-auto w-auto"
         :style="{
           maxHeight: '70%',
+          paddingRight: '20px',
         }"
       />
     </div>
