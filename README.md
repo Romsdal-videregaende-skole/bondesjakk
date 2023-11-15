@@ -1,4 +1,4 @@
-# Prosjekt: Informasjonsteknologi og medieproduksjon - Hospitering
+# Informasjonsteknologi og medieproduksjon - Hospitering
 
 Dette repoet inneholder materiale og ressurser relatert til hospitering i _Informasjonsteknologi og medieproduksjon_ hos Romsdal VGS. Det består av to hoveddeler: Presentasjonen om grunnleggende HTML, CSS og JavaScript og litt informasjon om linjen. Koden til et bondesjakk-spillet. 
 
