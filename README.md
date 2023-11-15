@@ -17,20 +17,22 @@ Denne mappen inneholder kildekoden til et enkelt bondesjakk-spill, som er en pra
 
 Innhold:
 
-`index.html`: Struktur av spillet.
-`style.css`: Stilark for spillet.
-`Index.js`: JavaScript logikk for spillet.
+* `index.html`: Struktur av spillet.
+* `style.css`: Stilark for spillet.
+* `Index.js`: JavaScript logikk for spillet.
 
 ## Bruk
 For å bruke presentasjonsmaterialet eller kjøre bondesjakk-spillet, klon dette repoet til din lokale maskin.
 
-`git clone https://github.com/chrorvik/bondesjakk.git`
+```git
+git clone https://github.com/chrorvik/bondesjakk.git
+```
 
 ### Kjøre presentasjon:
 1. Naviger til _bondesjakk - presentasjon_ og kjør følgende kommando:
-    ´npm install´
+    `npm install`
 2. Når alle pakkene er installert, kjører du:
-   `npm run dev´
+   `npm run dev`
 3. Følg instrukser i CLI
    
 ### Bondesjakk spillet
